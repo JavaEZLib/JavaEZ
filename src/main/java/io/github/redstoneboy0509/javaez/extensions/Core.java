@@ -4,6 +4,7 @@ import io.github.redstoneboy0509.javaez.backend.BackendVariableContext;
 import io.github.redstoneboy0509.javaez.backend.ErrorSystem;
 
 import java.time.Duration;
+import java.util.Scanner;
 import java.util.function.Supplier;
 
 /**
@@ -134,6 +135,17 @@ public class Core {
             Duration dur = Duration.ofMillis(elapsed);
             if(dur.getSeconds() >= seconds) keepGoing = false;
         }
+    }
+
+    /**
+     * Asks for input from the user. This function will wait until input is received.
+     * @param prompt The prompt to prompt the user with
+     * @return What the user entered
+     */
+    public static String ask(String prompt) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println(prompt);
+        return scanner.nextLine();
     }
 
 }
