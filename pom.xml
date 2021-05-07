@@ -7,6 +7,31 @@
     <groupId>io.github.redstoneboy0509</groupId>
     <artifactId>JavaEZ</artifactId>
     <version>1.0</version>
+    <description>A simplification library to make Java easier for newcomers.</description>
+    <name>${project.groupId}:${project.artifactId}</name>
+    <packaging>jar</packaging>
+    <url>https://github.com/RedstoneBoy0509/JavaEZ</url>
+    <licenses>
+        <license>
+            <name>GNU General Public License</name>
+            <url>https://www.gnu.org/licenses/gpl-3.0.en.html</url>
+        </license>
+    </licenses>
+    <developers>
+        <developer>
+            <name>RedstoneBoy0509</name>
+            <email>redstoneboy0509@gmail.com</email>
+            <url>redstoneboy0509.github.io</url>
+            <roles>
+                <role>Main developer</role>
+            </roles>
+        </developer>
+    </developers>
+    <scm>
+        <connection>scm:git:git://github.com/RedstoneBoy0509/JavaEZ.git</connection>
+        <developerConnection>scm:git:git://github.com/RedstoneBoy0509/JavaEZ.git</developerConnection>
+        <url>https://github.com/RedstoneBoy0509/JavaEZ</url>
+    </scm>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
