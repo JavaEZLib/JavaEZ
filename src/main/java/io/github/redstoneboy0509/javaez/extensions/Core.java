@@ -22,7 +22,7 @@ public class Core {
      */
     public static void say(String text) {
         try {
-            System.out.println(text);
+            java.lang.System.out.println(text);
         } catch(Exception ex) {
             ErrorSystem.handleError("Error while saying something in the console, text is " + text);
         }
@@ -128,10 +128,10 @@ public class Core {
      * @since 1.0
      */
     public static void waitFor(int seconds) {
-        long startTime = System.currentTimeMillis();
+        long startTime = java.lang.System.currentTimeMillis();
         boolean keepGoing = true;
         while(keepGoing) {
-            long elapsed = System.currentTimeMillis() - startTime;
+            long elapsed = java.lang.System.currentTimeMillis() - startTime;
             Duration dur = Duration.ofMillis(elapsed);
             if(dur.getSeconds() >= seconds) keepGoing = false;
         }
@@ -141,11 +141,23 @@ public class Core {
      * Asks for input from the user. This function will wait until input is received.
      * @param prompt The prompt to prompt the user with
      * @return What the user entered
+     * @since 1.1
      */
     public static String ask(String prompt) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println(prompt);
+        Scanner scanner = new Scanner(java.lang.System.in);
+        java.lang.System.out.println(prompt);
         return scanner.nextLine();
+    }
+
+    /**
+     * Joins text together
+     * @param one one bit of text
+     * @param two another bit of text
+     * @return the text joined together
+     * @since 1.2
+     */
+    public static String join(String one, String two) {
+        return one + two;
     }
 
 }
