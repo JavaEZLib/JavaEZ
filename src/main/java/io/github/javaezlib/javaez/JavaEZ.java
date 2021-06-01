@@ -1,4 +1,4 @@
-package io.github.redstoneboy0509.javaez;
+package io.github.javaezlib.javaez;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -17,7 +17,7 @@ public class JavaEZ {
      * The current version of JavaEZ.
      * @since 1.1
      */
-    public static final String VERSION = "1.2";
+    public static final String VERSION = "1.3";
 
     /**
      * Prints info about your version of JavaEZ
@@ -27,8 +27,12 @@ public class JavaEZ {
         System.out.println("=[JavaEZ Info]=");
         System.out.println("JavaEZ running on version " + VERSION);
         String latestVersion = getLatestVersion();
-        boolean areWeUpdated = latestVersion.equalsIgnoreCase(VERSION);
+        boolean areWeUpdated = latestVersion.equalsIgnoreCase(VERSION) ;
         if(!areWeUpdated) {
+            if(latestVersion.equalsIgnoreCase("Unknown")) {
+                System.out.println("Could not check for new versions");
+                return;
+            }
             System.out.println("Attention: your JavaEZ is not at latest version, please consider updating!");
             System.out.println("Latest version: " + latestVersion);
         } else System.out.println("JavaEZ is up to date!");

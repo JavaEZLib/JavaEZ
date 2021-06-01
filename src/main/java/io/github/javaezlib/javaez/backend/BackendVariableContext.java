@@ -1,4 +1,4 @@
-package io.github.redstoneboy0509.javaez.backend;
+package io.github.javaezlib.javaez.backend;
 
 import java.util.HashMap;
 

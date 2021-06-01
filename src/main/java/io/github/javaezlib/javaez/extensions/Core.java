@@ -1,11 +1,10 @@
-package io.github.redstoneboy0509.javaez.extensions;
+package io.github.javaezlib.javaez.extensions;
 
-import io.github.redstoneboy0509.javaez.backend.BackendVariableContext;
-import io.github.redstoneboy0509.javaez.backend.ErrorSystem;
+import io.github.javaezlib.javaez.backend.BackendVariableContext;
+import io.github.javaezlib.javaez.backend.ErrorSystem;
 
 import java.time.Duration;
 import java.util.Scanner;
-import java.util.function.Supplier;
 
 /**
  * The core functions of JavaEZ, usually implemented in every JavaEZ project.

@@ -3,4 +3,4 @@
  * @author RedstoneBoy0509
  * @since 1.0
  */
-package io.github.redstoneboy0509.javaez;
+package io.github.javaezlib.javaez;
