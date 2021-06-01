@@ -1,4 +1,4 @@
-package io.github.redstoneboy0509.javaez;
+package io.github.javaezlib.javaez;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

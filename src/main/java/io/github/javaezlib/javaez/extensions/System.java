@@ -1,6 +1,6 @@
-package io.github.redstoneboy0509.javaez.extensions;
+package io.github.javaezlib.javaez.extensions;
 
-import io.github.redstoneboy0509.javaez.backend.ErrorSystem;
+import io.github.javaezlib.javaez.backend.ErrorSystem;
 
 import java.awt.*;
 import java.io.File;
