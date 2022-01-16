@@ -44,9 +44,9 @@ And you can also find a replacement JavaEZ.info() here (make sure it is in the s
 ```java
 public static void info() {
         System.out.println("=[JavaEZ Info]=");
-        System.out.println("JavaEZ running on version " + VERSION);
+        System.out.println("JavaEZ running on version " + JavaEZ.VERSION);
         String latestVersion = getLatestVersion();
-        boolean areWeUpdated = latestVersion.equalsIgnoreCase(VERSION) ;
+        boolean areWeUpdated = latestVersion.equalsIgnoreCase(JavaEZ.VERSION) ;
         if(!areWeUpdated) {
             if(latestVersion.equalsIgnoreCase("Unknown")) {
                 System.out.println("Could not check for new versions");
