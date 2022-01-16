@@ -18,7 +18,7 @@ We have recently changed our license from the GNU General Public License v3 to t
 # Transfer
 On June 1, 2021 the JavaEZ repository was transferred to the JavaEZLib account. This is to avoid confusion and, yes the repo & lib are still owned by me. JavaEZLib is an alt made for upholding this project. I still manage JavaEZ and own it.
 # Server Location Changes
-The Update Server has changed to a different link on 1/15/2022, and you may see errors while attempting to fetch version data from versions 1.0, 1.1, 1.2, and 1.3. Until 1.4 is released, a workaround is possible. Use this script below to check for updates until 1.4 comes out.
+The Update Server has changed to a different link on 1/15/2022, and you may see errors while attempting to fetch version data from versions 1.0, 1.1, 1.2, and 1.3. Until 1.4 is released, a workaround is possible. Please update to 1.4 as soon as possible to make use of these features without this code.
 ```java
 public static String getLatestVersion() {
         List<String> versions = getVersions();
