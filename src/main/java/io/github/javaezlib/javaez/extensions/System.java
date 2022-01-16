@@ -60,7 +60,7 @@ public class System {
      */
     public static void lockMyPC() {
         if(!whatsMyOS().toLowerCase().contains("win")) {
-            ErrorSystem.handleError("You are not on Windows!");
+            ErrorSystem.handleError("You are not on Windows! PCs can only be locked on Windows.");
             return;
         }
         try {

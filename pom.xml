@@ -6,7 +6,7 @@
 
     <groupId>io.github.javaezlib</groupId>
     <artifactId>JavaEZ</artifactId>
-    <version>1.3</version>
+    <version>1.4</version>
     <description>A simplification library to make Java easier for newcomers.</description>
     <name>${project.groupId}:${project.artifactId}</name>
     <packaging>jar</packaging>
@@ -19,9 +19,9 @@
     </licenses>
     <developers>
         <developer>
-            <name>RedstoneBoy0509</name>
-            <email>redstoneboy0509@gmail.com</email>
-            <url>redstoneboy0509.github.io</url>
+            <name>Red050911</name>
+            <email>javaezlib@gmail.com</email>
+            <url>red050911.github.io</url>
             <roles>
                 <role>Main developer</role>
             </roles>

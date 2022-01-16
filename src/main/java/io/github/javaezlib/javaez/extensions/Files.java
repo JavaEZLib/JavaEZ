@@ -113,4 +113,58 @@ public class Files {
         }
     }
 
+    /**
+     * Makes a file
+     * @param path Where to create this file
+     * @since 1.4
+     */
+    public static void makeFile(String path) {
+        File file = new File(path);
+        if(file.exists()) {
+            ErrorSystem.handleError("This file already exists! Maybe a folder is there with the same name?");
+        } else {
+            try {
+                if(!file.createNewFile()) ErrorSystem.handleError("We couldn't create the file. Maybe the path was wrong?");
+            } catch (Exception e) {
+                ErrorSystem.handleError("We couldn't create the file. Maybe the path was wrong?");
+            }
+        }
+    }
+
+    /**
+     * Makes a folder
+     * @param path Where to create this file
+     * @since 1.4
+     */
+    public static void makeFolder(String path) {
+        File file = new File(path);
+        if(file.exists()) {
+            ErrorSystem.handleError("This folder already exists! Maybe a file is there with the same name?");
+        } else {
+            try {
+                if(!file.mkdirs()) ErrorSystem.handleError("We couldn't create the folder. Maybe the path was wrong?");
+            } catch (Exception e) {
+                ErrorSystem.handleError("We couldn't create the folder. Maybe the path was wrong?");
+            }
+        }
+    }
+
+    /**
+     * Trashes a file or folder.
+     * @param path Path of the file to trash
+     * @since 1.4
+     */
+    public static void trashFile(String path) {
+        File file = new File(path);
+        if(!file.exists()) {
+            ErrorSystem.handleError("The file/folder doesn't exist.");
+        } else {
+            try {
+                if(!file.delete()) ErrorSystem.handleError("We couldn't trash the file/folder. Maybe the path was wrong?");
+            } catch (Exception ex) {
+                ErrorSystem.handleError("We couldn't trash the file/folder. Maybe the path was wrong?");
+            }
+        }
+    }
+
 }
