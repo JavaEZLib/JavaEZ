@@ -6,7 +6,7 @@ import java.util.UUID;
 
 /**
  * Threads extension for JavaEZ, allowing you to run something parallel to your other code
- * @author RedstoneBoy0509
+ * @author Red050911
  * @since 1.0
  */
 @SuppressWarnings("deprecation")

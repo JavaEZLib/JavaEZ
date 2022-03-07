@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 /**
  * The core functions of JavaEZ, usually implemented in every JavaEZ project.
- * @author RedstoneBoy0509
+ * @author Red050911
  * @since 1.0
  */
 @SuppressWarnings("deprecation")
@@ -143,7 +143,7 @@ public class Core {
      * @since 1.1
      */
     public static String ask(String prompt) {
-        Scanner scanner = new Scanner(java.lang.System.in);
+        Scanner scanner = new Scanner(java.lang.System.in).useDelimiter("\\n");
         java.lang.System.out.println(prompt);
         return scanner.nextLine();
     }

@@ -6,7 +6,7 @@
 
     <groupId>io.github.javaezlib</groupId>
     <artifactId>JavaEZ</artifactId>
-    <version>1.4</version>
+    <version>1.5</version>
     <description>A simplification library to make Java easier for newcomers.</description>
     <name>${project.groupId}:${project.artifactId}</name>
     <packaging>jar</packaging>
@@ -101,8 +101,8 @@
     </build>
 
     <properties>
-        <maven.compiler.source>8</maven.compiler.source>
-        <maven.compiler.target>8</maven.compiler.target>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
     </properties>
 
 </project>
