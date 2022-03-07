@@ -8,7 +8,7 @@ import java.util.List;
 
 /**
  * Main class for JavaEZ
- * @author RedstoneBoy0509
+ * @author Red050911
  * @since 1.1
  */
 public class JavaEZ {
@@ -17,7 +17,7 @@ public class JavaEZ {
      * The current version of JavaEZ.
      * @since 1.1
      */
-    public static final String VERSION = "1.4";
+    public static final String VERSION = "1.5";
 
     /**
      * Prints info about your version of JavaEZ
@@ -25,15 +25,15 @@ public class JavaEZ {
      */
     public static void info() {
         System.out.println("=[JavaEZ Info]=");
-        System.out.println("JavaEZ running on version " + VERSION);
+        System.out.println("JavaEZ is running on version " + VERSION);
         String latestVersion = getLatestVersion();
         boolean areWeUpdated = latestVersion.equalsIgnoreCase(VERSION) ;
         if(!areWeUpdated) {
             if(latestVersion.equalsIgnoreCase("Unknown")) {
-                System.out.println("Could not check for new versions");
+                System.out.println("Could not check for new versions!");
                 return;
             }
-            System.out.println("Attention: your JavaEZ is not at latest version, please consider updating!");
+            System.out.println("Attention: Your JavaEZ instance is not at the latest version, please consider updating!");
             System.out.println("Latest version: " + latestVersion);
         } else System.out.println("JavaEZ is up to date!");
     }

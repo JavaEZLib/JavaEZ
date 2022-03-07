@@ -9,7 +9,7 @@ import java.net.URI;
 
 /**
  * The system extension, allowing the user to check system info
- * @author RedstoneBoy0509
+ * @author Red050911
  * @since 1.2
  */
 @SuppressWarnings("deprecation")
@@ -38,7 +38,7 @@ public class System {
         } else if(osName.toLowerCase().contains("mac")) {
             osSimplifiedName = "macOS";
         } else if(osName.toLowerCase().contains("nix") || osName.toLowerCase().contains("nux") || osName.toLowerCase().contains("aix")) {
-            osSimplifiedName = "Linux UNIX";
+            osSimplifiedName = "Linux or UNIX";
         } else if(osName.toLowerCase().contains("sunos")) {
             osSimplifiedName = "Solaris";
         }

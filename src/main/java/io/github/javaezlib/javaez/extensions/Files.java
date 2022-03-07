@@ -6,7 +6,7 @@ import java.io.*;
 
 /**
  * The Files extension for handling I/O with files.
- * @author RedstoneBoy0509
+ * @author Red050911
  * @since 1.0
  */
 @SuppressWarnings("deprecation")

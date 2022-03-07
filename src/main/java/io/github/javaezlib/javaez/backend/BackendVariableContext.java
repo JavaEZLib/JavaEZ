@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 /**
  * The context in which variables made using the Core extension are stored.
- * @author RedstoneBoy0509
+ * @author Red050911
  * @since 1.0
  */
 public class BackendVariableContext {
