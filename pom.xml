@@ -6,7 +6,7 @@
 
     <groupId>io.github.javaezlib</groupId>
     <artifactId>JavaEZ</artifactId>
-    <version>1.5</version>
+    <version>1.6</version>
     <description>A simplification library to make Java easier for newcomers.</description>
     <name>${project.groupId}:${project.artifactId}</name>
     <packaging>jar</packaging>
@@ -49,7 +49,7 @@
             <plugin>
                 <groupId>org.sonatype.plugins</groupId>
                 <artifactId>nexus-staging-maven-plugin</artifactId>
-                <version>1.6.7</version>
+                <version>1.6.8</version>
                 <extensions>true</extensions>
                 <configuration>
                     <serverId>ossrh</serverId>
