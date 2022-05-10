@@ -21,6 +21,7 @@ public class ErrorSystem {
         ACCEPTED_CLASSNAMES.add("io.github.javaezlib.javaez.extensions.Files");
         ACCEPTED_CLASSNAMES.add("io.github.javaezlib.javaez.extensions.System");
         ACCEPTED_CLASSNAMES.add("io.github.javaezlib.javaez.extensions.Threads");
+        ACCEPTED_CLASSNAMES.add("io.github.javaezlib.javaez.extensions.Security");
         ACCEPTED_CLASSNAMES.add("io.github.javaezlib.javaez.backend.BackendVariableContext");
         ACCEPTED_CLASSNAMES.add("io.github.javaezlib.javaez.JavaEZ");
     }
