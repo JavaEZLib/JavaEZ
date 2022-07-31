@@ -1,4 +1,5 @@
 ![Build](https://github.com/JavaEZLib/JavaEZ/actions/workflows/maven.yml/badge.svg)
+[![CodeQL](https://github.com/JavaEZLib/JavaEZ/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/JavaEZLib/JavaEZ/actions/workflows/codeql-analysis.yml)
 # JavaEZ
 JavaEZ, making Java simple for newcomers.
 JavaEZ is a library that adds new functions to make Java easier, hence the name. Please go to our wiki for instructions on how to use this.
